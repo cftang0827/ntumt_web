@@ -2,15 +2,23 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
+
 @media only screen and (min-width:200px) {
 
 nav#navBar1{
+  position: relative;
   top:auto;
+  margin: auto;
+  width: 95%;
+  border-radius: 10px;
   background-color: #DCDCDC;
 }
 
 img#logo{
   height: 70px;
+  position: relative;
+  left: 5px;
 }
 
 a#item{
@@ -18,23 +26,29 @@ a#item{
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 70%;    
+    width: 100%;    
     margin: auto;
-    /*height: 200%;*/
+    /*height: 100%;*/
     position:relative;
     top:auto;
 }
 
 .carousel-caption{
-    font-size:20%;
+    font-size:30%;
     border-radius: 10px;
 
 }
 
+h2#webtext1{
+  font-size: 50%;
+}
+
 .container#car1{ 
+  position: relative;
+  top: 10px;
   background-color: #DCDCDC;
   border-radius: 10px;
-  width: 100%;
+  width: 95%;
 }
 body{
    background-color: #696969;
@@ -50,6 +64,7 @@ body{
     margin:auto;
     position:relative;
     top:5px;
+    width: 95%;
     border-radius:10px;
     
   }
@@ -172,17 +187,32 @@ h1#row3Title{
     top: 5px;
     font-size: 70%;
     font-family: 微軟正黑體;
-  }    
+  }   
+
+  div#left_bar{
+    display: none;
+    visibility:hidden;
+  } 
 
 
+  div#row3_faculty{
+    background-color: #DCDCDC;
+
+    margin:auto;
+    position:relative;
+    width: 95%;
+    top:15px;
+    border-radius:10px;    
+
+  }
 
 
 }
-
-
-@media only screen and (min-width:1100px) {
+@media only screen and (min-width:550px) {
   img#logo{
     height: 115px;
+    position: relative;
+    left:20px;
 
 
   }
@@ -193,13 +223,14 @@ h1#row3Title{
   }
   nav#navBar1{
     /*padding-left:200px;*/
-    width: 85%;
+    width: 90%;
     margin: auto;
     background-color: #DCDCDC;
     position:relative;
     top:15px;
     border-radius: 10px;
     border: 10px;
+    font-color: black;
   }
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -217,11 +248,15 @@ h1#row3Title{
   .container#car1{
     position:relative;
     top:35px;
-    width: 85%;
+    width: 90%;
     
     background-color: #DCDCDC;
     border-radius: 10px;
   }
+
+  h2#webtext1{
+  font-size: 30px;
+}
 
   body{
     background-color: #696969;
@@ -232,18 +267,28 @@ h1#row3Title{
     font-family: 微軟正黑體;
   }
 
-  span#control{
-    
-  }
+/*  iframe#rss{
+    position: relative;
+    right: 20px;
+  }*/
+
 
   div#row3{
     background-color: #DCDCDC;
-    width:85%;
+    width:90%;
     margin:auto;
     position:relative;
     top:35px;
     border-radius:10px;
 
+  }
+
+  div#row4{
+    background-color: #DCDCDC;
+    width: 65%;
+    position: relative;
+    margin: 35px 27.5%;
+    border-radius:10px;
   }
 
   img#colImage1{
@@ -309,35 +354,41 @@ h1#row3Title{
     position: relative;
     /*left: 20%;*/
     width: 120%;
+
   }
 
   li#barItem1{
     position: relative;
     /*top: 60px;*/
+    color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   }
   li#barItem2{
     position: relative;
     /*top: 60px;*/
+    font-color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   }
   li#barItem3{
     position: relative;
     /*top: 60px;*/
+    font-color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   }
   li#barItem4{
     position: relative;
     /*top: 60px;*/
+    font-color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   } 
   li#barItem5{
     position: relative;
     /*top: 60px;*/
+    font-color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
@@ -350,21 +401,274 @@ h1#row3Title{
   li#barItem7{
     position: relative;
     /*top: 60px;*/
+    font-color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
   li#barItem8{
     position: relative;
     /*top: 60px;*/
+    font-color: black;
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
+
+
+
+  div#left_bar{
+    position:fixed;
+    text-align: center;
+    top:250px;
+    border-radius: 30px;
+    width: 150px;
+  } 
+
+  div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }  
+
+
+  }
+
+
+
+
+@media only screen and (min-width:900px) {
+  img#logo{
+    height: 115px;
+
+
+  }
+  a#item{
+    padding-top: 60px;
+    
+    color: black;
+  }
+  nav#navBar1{
+    /*padding-left:200px;*/
+    width: 85%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 100%;
+      margin: auto;
+      /*height: 300px;*/
+      background-color: white;
+      border-radius: 10px;
+
+
+
+  }
+
+  .container#car1{
+    position:relative;
+    top:35px;
+    width: 85%;
+    
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+  h2#webtext1{
+  font-size: 30px;
+}
+
+  body{
+    background-color: #696969;
+  }
+
+  a#item{
+    font-size: 20px;
+    font-family: 微軟正黑體;
+  }
+
+/*  iframe#rss{
+    position: relative;
+    right: 20px;
+  }*/
+
+
+  div#row3{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+
+  }
+
+  div#row4{
+    background-color: #DCDCDC;
+    width: 65%;
+    position: relative;
+    margin: 35px 27.5%;
+    border-radius:10px;
+  }
+
+  img#colImage1{
+    width: 80%;
+    margin: auto;
+    position:relative;
+    left:10%;
+    right: 10%;
+    border-radius: 10px;
+    background-color:#D2B48C;
+  }
+
+    img#colImage2{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    left:10%;
+    right: 10%; 
+    border-radius: 10px;   
+    background-color:#87CEFA;
+  }
+
+    img#colImage3{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:10%;
+    right: 10%; 
+    border-radius: 10px;   
+    background-color:#90EE90;
+  }
+
+    img#colImage4{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:10%;
+    right:10%;
+    border-radius: 10px;
+    background-color:#90EE90;
+  }  
+
+  p#colPara{
+    width: 100%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:0%;
+    right: 0%;    
+
+  }
+
+  h1#row3Title{
+    position:relative;
+    left:15px;
+    font-family:微軟正黑體;
+    font-size:25px;
+  }
+
+  ul#barItem{
+    position: relative;
+    /*left: 20%;*/
+    width: 120%;
+
+  }
+
+  li#barItem1{
+    position: relative;
+    /*top: 60px;*/
+    color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem2{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem3{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem4{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  } 
+  li#barItem5{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem6{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem7{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem8{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+
+
+
+  div#left_bar{
+    position:fixed;
+    text-align: center;
+    top:250px;
+    border-radius: 30px;
+    width: 200px;
+  } 
+
+  div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }
             
 
 
 }
 
-@media only screen and (min-width:1600px) {
+@media only screen and (min-width:1800px) {
 
 
 
