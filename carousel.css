@@ -26,7 +26,7 @@ a#item{
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 100%;    
+    width: 130%;    
     margin: auto;
     /*height: 100%;*/
     position:relative;
@@ -53,8 +53,6 @@ h2#webtext1{
 body{
    background-color: #696969;
 }
-
-
 
 
   div#row3{
@@ -207,8 +205,10 @@ h1#row3Title{
   }
 
 
+
+
 }
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:768px) {
   img#logo{
     height: 115px;
     position: relative;
@@ -287,7 +287,7 @@ h1#row3Title{
     background-color: #DCDCDC;
     width: 65%;
     position: relative;
-    margin: 35px 27.5%;
+    /*margin: 35px 27.5%;*/
     border-radius:10px;
   }
 
@@ -432,7 +432,9 @@ h1#row3Title{
     top:35px;
     border-radius:10px;
     
-  }  
+  }
+
+
 
 
   }
@@ -440,7 +442,7 @@ h1#row3Title{
 
 
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:992px) {
   img#logo{
     height: 115px;
 
@@ -517,7 +519,7 @@ h1#row3Title{
     background-color: #DCDCDC;
     width: 65%;
     position: relative;
-    margin: 35px 27.5%;
+    /*margin: 35px 27.5%;*/
     border-radius:10px;
   }
 
@@ -663,6 +665,8 @@ h1#row3Title{
     border-radius:10px;
     
   }
+
+ 
             
 
 
@@ -788,6 +792,28 @@ h1#row3Title{
     /*top: 60px;*/
     font-size: 110%;
     font-family: 微軟正黑體;
+  }
+
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;  
+ 
+  }    
+
+  div#personalRow4{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:55px;
+    border-radius:10px;  
+ 
+  }      
+
   }    
 
 
