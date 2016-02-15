@@ -1,0 +1,75 @@
+@media only screen and (min-width:100px) {
+
+
+
+  div#historyRow3{
+    background-color: #DCDCDC;
+    width:95%;
+    margin:auto;
+    position:relative;
+    top:15px;
+    border-radius:10px;  
+ 
+  }  
+
+} 
+
+@media only screen and (min-width:400px) {
+
+
+  div#historyRow3{
+    background-color: #DCDCDC;
+    width:95%;
+    margin:auto;
+    position:relative;
+    top:15px;
+    border-radius:10px;  
+ 
+  }  
+}
+
+@media only screen and (min-width:768px) {
+
+  div#historyRow3{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:15px;
+    border-radius:10px;  
+ 
+  }  
+
+  p#historyTitle{
+    position: relative;
+    
+    font-size: 20px;
+    font-family: 微軟正黑體;
+  }
+
+  hr#hr1{
+    display: block;
+  }
+ 
+
+}
+
+@media only screen and (min-width:992px) {
+
+   div#historyRow3{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:15px;
+    border-radius:10px;  
+ 
+  }  
+
+}
+
+@media only screen and (min-width:1200px) {
+}
+
+@media only screen and (min-width:1800px) {
+}

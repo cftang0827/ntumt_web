@@ -186,6 +186,12 @@ h1#row3Title{
     font-size: 70%;
     font-family: 微軟正黑體;
   }   
+    li#barItem9{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }   
 
   div#left_bar{
     display: none;
@@ -412,7 +418,13 @@ h1#row3Title{
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
-
+  li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }  
 
 
   div#left_bar{
@@ -644,7 +656,13 @@ h1#row3Title{
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
-
+  li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
 
 
   div#left_bar{
@@ -788,6 +806,12 @@ h1#row3Title{
     font-family: 微軟正黑體;
   }    
   li#barItem8{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+    li#barItem9{
     position: relative;
     /*top: 60px;*/
     font-size: 110%;
