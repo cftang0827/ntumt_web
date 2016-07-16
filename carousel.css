@@ -1,6 +1,64 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+@media (max-width: 900px) {
+        .navbar-header {
+            float: none;
+        }
+        .navbar-left,.navbar-right {
+            float: none !important;
+        }
+        .navbar-toggle {
+           
+            
+            
+          
+            margin-right:9%;
+            
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-fixed-top {
+        top: 0;
+
+        border-width: 0 0 1px;
+      }
+        .navbar-collapse.collapse {
+            display: none!important;
+            /*margin-top: 200px;*/
+        }
+        .navbar-nav {
+          float: none!important;
+          margin-top: 7.5px;
+          
+      }
+      .navbar-nav>li {
+            float: none;
+
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+        .collapse.in{
+
+          display:block !important;
+      }
+	  div#left_bar{
+		display: none;
+		visibility:hidden;
+	  } 
+
+	  
+	  
+
+  }
+
 
 
 
@@ -61,11 +119,33 @@ body{
 
     margin:auto;
     position:relative;
-    top:5px;
+    top:15px;
     width: 95%;
     border-radius:10px;
     
   }
+  div#row3_1{
+    /*background-color:#DCDCDC;*/
+    background-color: #DCDCDC;
+
+    margin:auto;
+    position:relative;
+    top:25px;
+    width: 95%;
+    border-radius:10px;
+    
+  }  
+  div#row3_2{
+    /*background-color:#DCDCDC;*/
+    background-color: #DCDCDC;
+
+    margin:auto;
+    position:relative;
+    top:35px;
+    width: 95%;
+    border-radius:10px;
+    
+  }    
 
 img#colImage1{
     
@@ -186,16 +266,23 @@ h1#row3Title{
     font-size: 70%;
     font-family: 微軟正黑體;
   }   
-
+    li#barItem9{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }   
   div#left_bar{
     display: none;
     visibility:hidden;
-  } 
+  }    
+
+
 
 
   div#row3_faculty{
     background-color: #DCDCDC;
-
+	font-size: 98%;
     margin:auto;
     position:relative;
     width: 95%;
@@ -209,6 +296,12 @@ h1#row3Title{
 
 }
 @media only screen and (min-width:768px) {
+
+
+
+
+
+
   img#logo{
     height: 115px;
     position: relative;
@@ -279,6 +372,25 @@ h1#row3Title{
     margin:auto;
     position:relative;
     top:35px;
+    border-radius:10px;
+
+  }
+    div#row3_1{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:50px;
+    border-radius:10px;
+
+  }
+
+    div#row3_2{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:65px;
     border-radius:10px;
 
   }
@@ -412,21 +524,45 @@ h1#row3Title{
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
+  li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }  
 
-
-
+/* 
   div#left_bar{
     position:fixed;
     text-align: center;
     top:250px;
     border-radius: 30px;
     width: 150px;
-  } 
+  }  */
+  
+  div#left_bar{
+    display: none;
+    visibility:hidden;
+  }
+  button#click1{
+	display: none;
+    visibility:hidden;  
+  }
+  button#click2{
+	display: none;
+    visibility:hidden;  
+  }  
+  button#click3{
+	display: none;
+    visibility:hidden;  
+  }     
+
 
   div#row3_faculty{
 
     background-color: #DCDCDC;
-    width:85%;
+    width:90%;
     margin:auto;
     position:relative;
     top:35px;
@@ -514,6 +650,25 @@ h1#row3Title{
     border-radius:10px;
 
   }
+  div#row3_1{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:50px;
+    border-radius:10px;
+
+  }
+
+  div#row3_2{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:65px;
+    border-radius:10px;
+
+  }  
 
   div#row4{
     background-color: #DCDCDC;
@@ -613,7 +768,7 @@ h1#row3Title{
   li#barItem4{
     position: relative;
     /*top: 60px;*/
-    font-color: black;
+    font-color: red;
     font-size: 110%;
     font-family: 微軟正黑體;
   } 
@@ -644,7 +799,13 @@ h1#row3Title{
     font-size: 110%;
     font-family: 微軟正黑體;
   }    
-
+  li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
 
 
   div#left_bar{
@@ -653,7 +814,21 @@ h1#row3Title{
     top:250px;
     border-radius: 30px;
     width: 200px;
-  } 
+  }
+  button#click1{
+	display: none;
+    visibility:hidden;  
+  }
+  button#click2{
+	display: none;
+    visibility:hidden;  
+  }  
+  button#click3{
+	display: none;
+    visibility:hidden;  
+  }     
+
+
 
   div#row3_faculty{
 
@@ -725,17 +900,26 @@ h1#row3Title{
 
   }
 
-
-  nav#navBar1{
-    /*padding-left:200px;*/
-    width: 70%;
-    margin: auto;
+  div#row3_1{
     background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
     position:relative;
-    top:15px;
-    border-radius: 10px;
-    border: 10px;
+    top:60px;
+    border-radius:10px;
+
+  }
+  div#row3_2
+  {
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:85px;
+    border-radius:10px;
+
   }  
+
 
 
   ul#barItem{
@@ -793,6 +977,12 @@ h1#row3Title{
     font-size: 110%;
     font-family: 微軟正黑體;
   }
+    li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
 
   div#personalRow3{
     background-color: #DCDCDC;
@@ -813,6 +1003,16 @@ h1#row3Title{
     border-radius:10px;  
  
   }      
+    div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }
 
   }    
 
