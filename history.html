@@ -34,45 +34,45 @@
 
 
     <script>
-        $(document).ready(function(){
-            $("li#barItem1").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem1").addClass("active");
-            });
-            $("li#barItem2").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem2").addClass("active");
-            });         
-            $("li#barItem3").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem3").addClass("active");
-            });
-            $("li#barItem4").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem4").addClass("active");
-            }); 
-            $("li#barItem5").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem5").addClass("active");
-            }); 
-            $("li#barItem6").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem6").addClass("active");
-            }); 
-            $("li#barItem7").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem7").addClass("active");
-            }); 
-            $("li#barItem8").click(function(){
-                $("li").removeClass("active");
-                $("li#barItem8").addClass("active");
-            });                                                 
-        });     
+        // $(document).ready(function(){
+        //     $("li#barItem1").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem1").addClass("active");
+        //     });
+        //     $("li#barItem2").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem2").addClass("active");
+        //     });         
+        //     $("li#barItem3").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem3").addClass("active");
+        //     });
+        //     $("li#barItem4").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem4").addClass("active");
+        //     }); 
+        //     $("li#barItem5").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem5").addClass("active");
+        //     }); 
+        //     $("li#barItem6").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem6").addClass("active");
+        //     }); 
+        //     $("li#barItem7").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem7").addClass("active");
+        //     }); 
+        //     $("li#barItem8").click(function(){
+        //         $("li").removeClass("active");
+        //         $("li#barItem8").addClass("active");
+        //     });                                                 
+        // });     
 
 
      
         $(document).ready(function (){
-            $("#click1").click(function (){
+            $("#studnet_click1").click(function (){
                 $('html, body').animate({
                     scrollTop: 0
                 }, 500);
@@ -80,9 +80,9 @@
         });
 
         $(document).ready(function (){
-            $("#click2").click(function (){
+            $("#studnet_click2").click(function (){
                 $('html, body').animate({
-                    scrollTop: $("#historyTitle").offset().top
+                    scrollTop: $("h2#history").offset().top
                 }, 500);
             });
         });
@@ -97,7 +97,6 @@
 
 <body>
     
-
     <nav id = "navBar1" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
         <div class="navbar-header">
@@ -116,13 +115,13 @@
 
             <li id = "barItem1" ><a  href="./index.html" data-toggle="collapse" data-target="#myNavbar.in"><b>回首頁</b></a></li>
             <li id = "barItem2"><a  href="./history.html" data-toggle="collapse" data-target="#myNavbar.in"><b>關於醫技系</b></a></li>
-            <li id = "barItem3"><a href="http://ntumt404news.blogspot.tw/" data-toggle="collapse" data-target="#myNavbar.in"><b>最新消息</b></a></li> 
+            <li id = "barItem3"><a href="http://ntumtnews.blogspot.tw/" data-toggle="collapse" data-target="#myNavbar.in"><b>最新消息</b></a></li> 
             <li id = "barItem4"><a href="./faculty.html" data-toggle="collapse" data-target="#myNavbar.in"><b>教職員工</b></a></li> 
             <li id = "barItem5"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>招生專區</b></a></li> 
-            <li id = "barItem6"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
+            <li id = "barItem6"><a href="./student.html" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
             <li id = "barItem7"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
             <li id = "barItem8"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>共同儀器</b></a></li> 
-            <li id = "barItem9"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b> 常用表單</b></a></li> 
+            <li id = "barItem9"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>常用表單</b></a></li> 
 
 
           </ul>
@@ -136,14 +135,15 @@
         <div class = "row" id = "historyRow3">
             <div class = "col-md-3">          
 
-				<div class="collapse navbar-collapse" id = "left_bar">
-					 <button type="button" class="btn btn-lg btn-default" id = "click1">&nbsp;&nbsp;&nbsp;教育目標&nbsp;&nbsp;&nbsp;</button>
-					 <button type="button" class="btn btn-lg btn-default" id = "click2">&nbsp;&nbsp;&nbsp;系所簡史&nbsp;&nbsp;&nbsp;</button>
-				</div>			
+                <div class="collapse navbar-collapse" id = "left_bar">
+                     <button type="button" class="btn btn-lg btn-default" id = "studnet_click1">&nbsp;&nbsp;&nbsp;教育目標&nbsp;&nbsp;&nbsp;</button>
+                     <button type="button" class="btn btn-lg btn-default" id = "studnet_click2">&nbsp;&nbsp;&nbsp;系所簡史&nbsp;&nbsp;&nbsp;</button>
+
+                </div>      		
 			</div>
             <div class = "col-md-8" >
                 <br>
-                <p id = "historyTitle"><b>Mission教育目標</b></p>
+                <h2><b>Mission教育目標</b></h2>
                 <hr >
                 <p>
 
@@ -151,6 +151,8 @@
 				本系所設立宗旨為「培育醫檢英才，創新生技研發」。早期設系之目的為培育醫檢專業人才以服務社會。近期亦培育具創新研發之生技人才以配合生技產業發展之需求。
 					本系學士班、碩士班及博士班秉承台灣大學整體教育目標「培育具備健全品格，堅實學問，社會關懷與全球視野的社會中堅及領導人才，以增進國家與人類福社」，並配合醫學檢驗暨生物技術學門之專業發展需求，分別訂定學士班、碩士班及博士班之教育目標如下:
 				</p><br>
+            
+                
 
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -190,7 +192,7 @@
             </div>
           </div>
           <br><br><br>  
-          <p id = "historyTitle"><b>History簡史</b></p>
+          <h2 id = "history"><b>History簡史</b></h2>
             <hr>  
             <p>
 
