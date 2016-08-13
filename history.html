@@ -82,7 +82,7 @@
         $(document).ready(function (){
             $("#studnet_click2").click(function (){
                 $('html, body').animate({
-                    scrollTop: $("h2#history").offset().top
+                    scrollTop: $("#go").offset().top
                 }, 500);
             });
         });
@@ -97,6 +97,7 @@
 
 <body>
     
+
     <nav id = "navBar1" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
         <div class="navbar-header">
@@ -117,9 +118,9 @@
             <li id = "barItem2"><a  href="./history.html" data-toggle="collapse" data-target="#myNavbar.in"><b>關於醫技系</b></a></li>
             <li id = "barItem3"><a href="http://ntumtnews.blogspot.tw/" data-toggle="collapse" data-target="#myNavbar.in"><b>最新消息</b></a></li> 
             <li id = "barItem4"><a href="./faculty.html" data-toggle="collapse" data-target="#myNavbar.in"><b>教職員工</b></a></li> 
-            <li id = "barItem5"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>招生專區</b></a></li> 
+            <li id = "barItem5"><a href="./recruit.html" data-toggle="collapse" data-target="#myNavbar.in"><b>招生專區</b></a></li> 
             <li id = "barItem6"><a href="./student.html" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
-            <li id = "barItem7"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
+            <li id = "barItem7"><a href="./alumni.html" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
             <li id = "barItem8"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>共同儀器</b></a></li> 
             <li id = "barItem9"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>常用表單</b></a></li> 
 
@@ -138,12 +139,12 @@
                 <div class="collapse navbar-collapse" id = "left_bar">
                      <button type="button" class="btn btn-lg btn-default" id = "studnet_click1">&nbsp;&nbsp;&nbsp;教育目標&nbsp;&nbsp;&nbsp;</button>
                      <button type="button" class="btn btn-lg btn-default" id = "studnet_click2">&nbsp;&nbsp;&nbsp;系所簡史&nbsp;&nbsp;&nbsp;</button>
-
-                </div>      		
+   
+                </div>  
 			</div>
             <div class = "col-md-8" >
                 <br>
-                <h2><b>Mission教育目標</b></h2>
+                <h2 ><b>Mission教育目標</b></h2>
                 <hr >
                 <p>
 
@@ -151,8 +152,6 @@
 				本系所設立宗旨為「培育醫檢英才，創新生技研發」。早期設系之目的為培育醫檢專業人才以服務社會。近期亦培育具創新研發之生技人才以配合生技產業發展之需求。
 					本系學士班、碩士班及博士班秉承台灣大學整體教育目標「培育具備健全品格，堅實學問，社會關懷與全球視野的社會中堅及領導人才，以增進國家與人類福社」，並配合醫學檢驗暨生物技術學門之專業發展需求，分別訂定學士班、碩士班及博士班之教育目標如下:
 				</p><br>
-            
-                
 
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -183,18 +182,19 @@
               <h3 class="panel-title">博士班:</h3>
             </div>
             <div class="panel-body">
+                <p id = "go">
                 1. 培育具獨立、多元思考及創新能力之醫學研究人才<br>
                 2. 培育醫檢生技師資及高階研發人才<br>
                 3. 培育具多元思考之醫檢及醫學生技管理人才
-
+                </p>
 
 
             </div>
           </div>
           <br><br><br>  
-          <h2 id = "history"><b>History簡史</b></h2>
+          <h2 ><b>History簡史</b></h2>
             <hr>  
-            <p>
+            <p >
 
             <b>本系簡史</b><br><br>
 本系原名「醫事技術學系」，創建目的之一，是為了培養專業的醫學檢驗人才，台大醫事技術系的創立及發展與早期的實驗診斷科－即現今檢驗醫學部的前身－息息相關，台大醫院實驗診斷科的前身為中央實驗室，於民國三十九年成立於門診部的地下一樓，民國四十三年夏，美援駐華分署聘請美國北卡羅萊那州杜克大學醫學院院長戴維遜博士（Dr. Davison）為本院顧問。在顧問期的兩個月間，戴維遜博士詳查本院教育及國內醫學檢驗的情形，寫成報告書，並提出兩項重要的建議：一為醫科課程及教學方法的全面性改革，其二即為建議本院設立醫事技術學系，以配合醫學科技發展培養醫事技術人才。<br>

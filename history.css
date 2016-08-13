@@ -49,14 +49,6 @@
     border: 10px;
     font-color: black;
   }
-  button#studnet_click1{
-  display: none;
-    visibility:hidden;  
-  }
-  button#studnet_click2{
-  display: none;
-    visibility:hidden;  
-  }  
 }
 
 @media only screen and (min-width:768px) {
@@ -92,7 +84,18 @@
   hr#hr1{
     display: block;
   }
-
+  button#studnet_click1{
+  display: none;
+    visibility:hidden;  
+  }
+  button#studnet_click2{
+  display: none;
+    visibility:hidden;  
+  }  
+  button#studnet_click3{
+  display: none;
+    visibility:hidden;  
+  }   
  
 
 }
@@ -120,11 +123,15 @@
     font-color: black;
   }
   button#studnet_click1{
-    display: inline;
+  display: inline;
     visibility:visible;  
   }
   button#studnet_click2{
-    display: inline;
+  display: inline;
+    visibility:visible;  
+  }   
+  button#studnet_click3{
+  display: inline;
     visibility:visible;  
   }   
 
