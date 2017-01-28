@@ -228,20 +228,22 @@
            </div>
 		  <div class = "col-md-12" >
           <br>  
-          <h2 ><b>Position位置</b></h2>
+          <h2 id="run"><b>Position位置</b></h2>
             <hr>  
-            <p id="run">
+           
 			
 			
             <b>本系位置圖</b><br><br>
 100 台北市常德街一號 台大醫院西址檢驗大樓5樓507室
 
-            </p><br> 
+            <br> 
 
 		  </div>
           <div class = "col-md-12 ">
-		   <h2 ><b><iframe class="middle" src="http://www.dr2ooo.com/tools/maps/maps.php?zoom=15&ll=25.041399,121.5172&ctrl=true&cp=true&width=500&height=400&" width="500" height="400" class="style1" frameborder="0"></iframe>
-           <h2 ><b><img id="images/map.jpg" src="F:\MT website\images\map.jpg"  width="556" height="695" alt="臺大醫院院內地圖" />
+		   <h2 >
+           <!-- <iframe class="middle" src="http://www.dr2ooo.com/tools/maps/maps.php?zoom=15&ll=25.041399,121.5172&ctrl=true&cp=true&width=500&height=400&" width="500" height="400" class="style1" frameborder="0"></iframe> -->
+           <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://biludlejning.world">go here</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(25.04153246211029,121.51649568455163),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(25.04153246211029,121.51649568455163)});infowindow = new google.maps.InfoWindow({content:'<strong>臺大醫院</strong><br>100台灣台北市中正區常德街1號<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+           <h2 ><img  src=".\map.jpg"  width="556" height="695" alt="臺大醫院院內地圖" />
             <br>
             <br>
           </div>    
@@ -262,8 +264,9 @@
 
 			
           </div>
-            <div class = "col-md-1"></div>
-        </div>
+
+        <!-- <div class = "col-md-1"></div> -->
+      
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
