@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap.min.css" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./ie-emulation-modes-warning.js"></script>
@@ -29,70 +29,43 @@
     <!-- maxCDN -->
     <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#toggle_nav").click(function(){
+                $("#myNavbar").fadeToggle(400);
+            });
+        });              
 
 
 
-    <script>
-        // $(document).ready(function(){
-        //     $("li#barItem1").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem1").addClass("active");
-        //     });
-        //     $("li#barItem2").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem2").addClass("active");
-        //     });         
-        //     $("li#barItem3").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem3").addClass("active");
-        //     });
-        //     $("li#barItem4").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem4").addClass("active");
-        //     }); 
-        //     $("li#barItem5").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem5").addClass("active");
-        //     }); 
-        //     $("li#barItem6").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem6").addClass("active");
-        //     }); 
-        //     $("li#barItem7").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem7").addClass("active");
-        //     }); 
-        //     $("li#barItem8").click(function(){
-        //         $("li").removeClass("active");
-        //         $("li#barItem8").addClass("active");
-        //     });                                                 
-        // });                
-
-
-
-    </script>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
+  
+    (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
       js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7&appId=902857556417555";
       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>   
+    }(document, 'script', 'facebook-jssdk'));
+
+    </script>   
+
+
+
+
+
     
   </head>
 
 
 
 <body>
- 
-    
+
 
     <nav id = "navBar1" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
         <div class="navbar-header">
           
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <button id = "toggle_nav" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
@@ -112,7 +85,7 @@
             <li id = "barItem6"><a href="./student.html" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
             <li id = "barItem7"><a href="./alumni.html" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
             <li id = "barItem8"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>共同儀器</b></a></li> 
-            <li id = "barItem9"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>常用表單</b></a></li> 
+            <li id = "barItem9"><a href="./commontab.html" data-toggle="collapse" data-target="#myNavbar.in"><b>常用表單</b></a></li> 
 
 
           </ul>
@@ -140,7 +113,7 @@
             <div class="carousel-inner" role="listbox">
 
               <div class="item active">
-                <img src="111.png" alt="Chania" >
+                <a href = "./index.html"><img src="111.png" alt="Chania" ></a>
                 <div class="carousel-caption">
                   
                   <h2 id = "webtext1">國立臺灣大學醫學院</h2>
@@ -263,9 +236,14 @@
 
 
         <div class = "row" id = "row3_1">
-            <div class = "col-md-6 col-sm-6 col-xs-6">
+            <div class = "col-md-6 col-sm-12 col-xs-12">
                 <h1 id ="row3Title"><span class="label label-primary"><b>活動剪影 Photos</b></span></h1>
-				<br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "kapo.gif"><br><br><br><br><br><br>
+     
+<div style="position: relative; padding-bottom: 60%; overflow: auto; -webkit-overflow-scrolling:touch;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/147200341@N02/&sort=2&by=user&theme=default&scale=fill&skin=default&id=588c4ee758b48" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe><br><br><small style="display: block; text-align: center; position: absolute; bottom: 0; left: 0; right: 0; margin-left: auto; margin-right: auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></div>
+                                     
+
+                    <br><br><br><br><br>
+
             </div>
          
         </div>
@@ -283,7 +261,7 @@
             </div>         
             <div class = "col-md-4 col-sm-4 col-xs-4">
        <!--          <a href="https://www.facebook.com/台大醫技系系學會-310254955803167/?fref=nf"><img style="size=30%" src="fb.jpg"> </a>  -->  
-            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F%E5%8F%B0%E5%A4%A7%E9%86%AB%E6%8A%80%E7%B3%BB%E7%B3%BB%E5%AD%B8%E6%9C%83-310254955803167%2F%3Ffref%3Dnf&width=250&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId=902857556417555" width="230" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F%E5%8F%B0%E5%A4%A7%E9%86%AB%E6%8A%80%E7%B3%BB%E7%B3%BB%E5%AD%B8%E6%9C%83-310254955803167%2F%3Ffref%3Dnf&width=250&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId=902857556417555" width="200" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
 
          
@@ -299,10 +277,12 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+<!--     <script src="//flickrembed.com/embed_v2.js.php?source=flickr&layout=responsive&input=www.flickr.com/photos/147200341@N02/with/32513229386/&sort=0&by=user&theme=carousel&scale=fit&skin=default-light&id=588c36f41c130"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./ie10-viewport-bug-workaround.js"></script>
     <script src="./docs.min.js"></script>
+    
 </body>
 </html>

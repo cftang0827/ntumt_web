@@ -9,21 +9,25 @@
             float: none !important;
         }
         .navbar-toggle {
-           
-            
-            
-          
-            margin-right:9%;
-            
+
+            margin-right: 10%;
+            margin-top:2%;
+
             display: block;
         }
         .navbar-collapse {
-            border-top: 1px solid transparent;
+            /*border-top: 1px ;*/
+            border-top-width: 60%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            display: block;
 
-            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+            /*box-shadow: inset 0 1px 0 rgba(255,255,255,1);*/
         }
+
         .navbar-fixed-top {
-        top: 0;
+        
 
         border-width: 0 0 1px;
       }
@@ -32,30 +36,37 @@
             /*margin-top: 200px;*/
         }
         .navbar-nav {
+
           float: none!important;
           margin-top: 7.5px;
           
       }
+
       .navbar-nav>li {
             float: none;
+            display: block;
+
 
         }
         .navbar-nav>li>a {
-            padding-top: 10px;
+            padding-top: 5px;
             padding-bottom: 10px;
+            padding-right: 200px;
+
 
         }
+
         .collapse.in{
 
           display:block !important;
       }
-	  div#left_bar{
-		display: none;
-		visibility:hidden;
-	  } 
+    div#left_bar{
+    display: none;
+    visibility:hidden;
+    } 
 
-	  
-	  
+    
+    
 
   }
 
@@ -109,7 +120,8 @@ h2#webtext1{
   width: 95%;
 }
 body{
-   background-color: #696969;
+   background-color:  #DCDCDC;
+   overflow-x: hidden;
 }
 
 
@@ -282,7 +294,7 @@ h1#row3Title{
 
   div#row3_faculty{
     background-color: #DCDCDC;
-	font-size: 98%;
+  font-size: 98%;
     margin:auto;
     position:relative;
     width: 95%;
@@ -294,9 +306,10 @@ h1#row3Title{
 
 
 
+
+
 }
 @media only screen and (min-width:768px) {
-
 
 
 
@@ -352,7 +365,10 @@ h1#row3Title{
 }
 
   body{
-    background-color: #696969;
+    background-color:   #2F4F4F;
+/*    background-image: url("back.jpg");
+    background-repeat: repeat-x;*/
+    overflow-x: hidden;
   }
 
   a#item{
@@ -546,15 +562,15 @@ h1#row3Title{
     visibility:hidden;
   }
   button#click1{
-	display: none;
+  display: none;
     visibility:hidden;  
   }
   button#click2{
-	display: none;
+  display: none;
     visibility:hidden;  
   }  
   button#click3{
-	display: none;
+  display: none;
     visibility:hidden;  
   }     
 
@@ -573,12 +589,17 @@ h1#row3Title{
 
 
 
+
+
   }
 
 
 
 
 @media only screen and (min-width:992px) {
+
+
+
   img#logo{
     height: 115px;
 
@@ -627,7 +648,10 @@ h1#row3Title{
 }
 
   body{
-    background-color: #696969;
+    background-color:   #2F4F4F;
+/*    background-image: url("back.jpg");
+    background-repeat: repeat-y;*/
+    overflow-x: hidden;
   }
 
   a#item{
@@ -816,15 +840,15 @@ h1#row3Title{
     width: 200px;
   }
   button#click1{
-	display: none;
+  display: none;
     visibility:hidden;  
   }
   button#click2{
-	display: none;
+  display: none;
     visibility:hidden;  
   }  
   button#click3{
-	display: none;
+  display: none;
     visibility:hidden;  
   }     
 
@@ -1015,5 +1039,3 @@ h1#row3Title{
   }
 
   }    
-
-
